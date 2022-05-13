@@ -25,6 +25,7 @@ header {
         img{
             width: 170px;
             height: 33px;
+            color: white;
         }
         ul {
             @include ul_flex(47px);
@@ -36,6 +37,9 @@ header {
                 font-weight: 600;
                 line-height: 25px;
                 font-family: 'Barlow', sans-serif;
+                &:hover{
+                    color: #5B636D;
+                }
                 &#contact{
                     background-color: white;
                     border-radius: 28px;
@@ -60,6 +64,11 @@ header {
         color: white;
         text-align: center;
         letter-spacing: 8.75px;
+    }
+    svg {
+        fill: #FFFF;
+        height: 100px;
+        z-index: 1;
     }
 }
 
@@ -239,8 +248,7 @@ footer {
         justify-content: center;
         align-items: center; 
         padding-top: 72px;  
-        img{
-            color:#2C7566;
+        svg{
             margin-bottom: 40px;
         }  
         #ul_links{
@@ -254,21 +262,32 @@ footer {
                 font-size: 18px;
                 font-weight: 600;
                 line-height: 25px;
+                &:hover{
+                    color: white;
+                }
             }
-    
         }
         
         #ul_icons{
             @include ul_flex(28px);
             margin-top: 0px;
-            a {
-                
-            }  
-        }  
+            svg{
+                fill: #2C7566;
+                &:hover{
+                    fill: #FFFF;
+                }
+                path {
+                    &:hover{
+                        fill: #FFFF;
+                    }
+                }
+            }   
+        }
+           
     }
-
-    
 }
+    
+    
 
 
 
