@@ -97,7 +97,7 @@ header .container_nav nav ul a {
   font-family: "Barlow", sans-serif;
 }
 header .container_nav nav ul a:hover {
-  color: #5B636D;
+  color: #24303E;
 }
 header .container_nav nav ul a#contact {
   background-color: white;
@@ -214,7 +214,7 @@ header #container_fleche #fleche {
   opacity: 0.25;
   border-radius: 28px;
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: -10px;
   z-index: 0;
 }
@@ -229,7 +229,7 @@ header #container_fleche #fleche {
   opacity: 0.25;
   border-radius: 28px;
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: -10px;
   z-index: 0;
 }
